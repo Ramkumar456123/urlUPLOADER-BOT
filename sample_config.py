@@ -2,10 +2,10 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "5507357989:AAFi_SK0RxEmK-2O7CJKJ8-T0K4Og0PTZ1M")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 12345))
-    API_HASH = os.environ.get("API_HASH")
+    APP_ID = int(os.environ.get("APP_ID", 15812424))
+    API_HASH = os.environ.get("274bdc7e5061b8bc4aa42c1487cc19f2")
     # Get these values from my.telegram.org
     # Banned Unwanted Members..
     BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
@@ -29,10 +29,10 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # your telegram id
-    OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1241165775"))
     # Update channel for Force Subscribe
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "-1001283161973")
     # database session name, example: xurluploader
-    SESSION_NAME = os.environ.get("SESSION_NAME", "")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "mongodb+srv://Pravinboopathi:ijsBpQsMrWMRpfip@cluster0.wlyf9.mongodb.net/cluster0?retryWrites=true&w=majority")
     # database uri (mongodb)
     DATABASE_URL = os.environ.get("DATABASE_URL", "")
